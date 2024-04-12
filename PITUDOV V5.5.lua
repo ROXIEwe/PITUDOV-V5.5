@@ -18,7 +18,7 @@ end
 
 getgenv().Executed = true
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ROXIEwe/PITUDO-V-V5.5/main/PITUDOV%20V5.5.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ROXIEwe/PITUDOV-V5.5/main/PITUDOV%20V5.5.lua"))()
 local Pitudo:vHub = Library.new("PITUDO:V V5.5", 5013109572)
 
 task.spawn(function()
@@ -3844,7 +3844,7 @@ local autoSaveSection = Settingss:addSection("Auto Save Settings")
 
 autoSaveSection:addButton("Open PITUDO:V Settings Hub",function()
 
-	local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ROXIEwe/PITUDO-V-V5.5/main/PITUDOV%20V5.5.lua"))()
+	local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ROXIEwe/PITUDOV-V5.5/main/PITUDOV%20V5.5.lua"))()
 	local pitito:vHub = Lib.new("PITUDO:V V5.5 SETTINGS", 5013109572)
 	local nothing = pitudo:vHub:addPage("Nothing",5012544693)
 	local autoSavePage = pitudo:vHub:addPage("Auto Saves",5012544693)
